@@ -1,0 +1,13 @@
+{
+  "name": "neowise-candidate-triage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-помощник для входящих заявок: тема и черновик ответа, ручной разбор при сбое модели",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  }
+}
